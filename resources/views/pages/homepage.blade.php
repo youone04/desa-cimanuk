@@ -11,23 +11,24 @@
   </style>
 @endsection
 
-@section('title', 'Cibatu')
+@section('title', 'Cimanuk')
 
 @section('content')
-
-
-<div class="jumbotron jumbotron-fluid" style="background-image: url({{ asset('img/back.png') }});">
+{{-- style="background-image: url({{ asset('img/back.png') }});" --}}
+<div class="jumbotron jumbotron-fluid" style="background-image: url('https://i.pinimg.com/originals/7d/f1/c0/7df1c007716bed0e9ab086f91dbdd94b.jpg');">
   <div class="container">
     <h1 class="display-4">Kenali Desa kami Lebih Dekat Lagi</h1>
-    <p class="lead">Desa Cibatu adalah desa di wilayah Kecamatan Cisaat Kabupaten Sukabumi</p>
-    <a class="btn btn-primary btn-xl" href="#" role="button">Learn More</a>
+    <p class="lead">Desa Cimanuk adalah desa di wilayah Waylima Kabupaten Pesawaran</p>
+    <a class="btn btn-xl btn-learn-more text-white" href="#" role="button">Learn More</a>
   </div>
 </div>
 
 <div class="welcome mb-5">
   <div class="container">
     <div class="photo">
-    <img src="{{ asset('img/photo.png') }}" alt="">
+    {{-- <img src="{{ asset('img/photo.png') }}" alt=""> --}}
+     <img style="height: 400px" src="https://awsimages.detik.net.id/community/media/visual/2022/10/06/presiden-jokowi.jpeg?w=700&q=90" alt="">
+    
     </div>
     <div class="text">
       <h2>Selamat Datang Di Website Kami</h2>
@@ -36,19 +37,17 @@
         Situs web ini merupakan salah satu wujud dari komitmen 
         pemerintah desa, pada pentingnya komunikasi dan transparansi
         publik.</p>
-      <h4>Sendi Agustian Maulana, <span>Kepala Desa Cibatu</span></h4>
+      <h4>Khairullah, <span>Kepala Desa Cimanuk</span></h4>
     </div>
   </div>
 </div>
 
 <div class="news">
   <div class="container">
-    <h2> <span class="far fa-newspaper" style="color: crimson;"></span> Kabar Desa Terbaru</h2>
+    <h2> <span class="far fa-newspaper" style="color: #336B87;"></span> Kabar Desa Terbaru</h2>
     <div class="row row-cols-1 row-cols-md-2">
-
       @foreach ($posts as $post)
-
-      <div class="col mb-4">
+      <div class="col mb-4 box-shadow">
         <div class="card h-100">
           <img src="{{ asset( $post->thumbnail ) }}" class="card-img-top" alt="">
           <div class="card-body">

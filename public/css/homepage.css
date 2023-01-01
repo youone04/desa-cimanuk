@@ -31,7 +31,7 @@
   content: '';
   display: block;
   position: absolute;
-  background-color: rgba(194, 0, 41, 0.5) ;
+  background-color:rgb(96 125 139 / 41%) ;
   width: 100%;
   height: 100%;
   bottom: 0;
@@ -46,9 +46,13 @@
 }
 
 .welcome .container {
-  background-color: crimson;
+  background-color: #336B87;
   text-align: center;
   color: white;
+  box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
+  -webkit-box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
+  -moz-box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
+
 }
 
 .photo img {
@@ -91,6 +95,10 @@
   display: inline-block;
   border-bottom: 2px solid crimson;
 }
+.btn-learn-more{
+  background-color: #90AFC5;
+}
+
 /* Tablet Version */
 @media (min-width: 768px) {
   

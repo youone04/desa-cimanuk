@@ -5,7 +5,7 @@
 <div class="col-xl-8 offset-xl-2 py-5">
 
   <h1 align="center"><p>Pelayanan Surat Online</p>
-      <a href="/">Desa Cibatu</a>
+      <a href="/">Desa Cimanuk</a>
   </h1>
 
   <p class="lead">Silahkan lengkapi semua isian sesuai dengan data yang diperlukan</p>
