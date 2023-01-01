@@ -1,6 +1,6 @@
 ## Cara Instalasi  dan download Laravel
 1. git clone
-2. cd web-desa
+2. cd desa-cimanuk
 3. composer install
 4. buat database dengan nama db_cimanuk
 5. jalankan perintah php artisan migrate
