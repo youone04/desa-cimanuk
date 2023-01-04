@@ -12,6 +12,8 @@
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/6144395dcf.js" crossorigin="anonymous"></script>
     <title>@yield('title')</title>
+     <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   
@@ -24,5 +26,9 @@
   <!-- Bootstrap Scripts -->
   <script src="{{ asset('js/app.js') }}" defer></script>
   @yield('script')
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

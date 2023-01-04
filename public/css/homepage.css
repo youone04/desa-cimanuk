@@ -35,6 +35,8 @@
   width: 100%;
   height: 100%;
   bottom: 0;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100.00% 99.83%, 0% 50.18%);
+  clip-path: polygon(0% 0%, 100% 0%, 100.00% 99.83%, 0% 50.18%);
 }
 
 .jumbotron .btn {
@@ -52,7 +54,6 @@
   box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
   -webkit-box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
   -moz-box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
-
 }
 
 .photo img {
@@ -100,8 +101,8 @@
 }
 
 /* Tablet Version */
-@media (min-width: 768px) {
-  
+@media (min-width: 768px) { 
+
   .jumbotron {
     background-position: -200px;
   }
