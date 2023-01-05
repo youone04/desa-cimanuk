@@ -22,6 +22,9 @@
             <a class="dropdown-item" href="/visi-misi">Visi & Misi</a>
             <a class="dropdown-item" href="/wilayah">Wilayah</a>
             <a class="dropdown-item" href="/sejarah">Sejarah</a>
+            <a class="dropdown-item" href="/layanan">Layanan Surat Desa</a>
+            <a class="dropdown-item" href="/transparansi">Transparansi</a>
+            <a class="dropdown-item" href="/produk-desa">Produk Desa</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -36,18 +39,18 @@
             {{-- <a class="dropdown-item" href="/karang-taruna">Karang Taruna</a> --}}
           </div>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link text-white" href="/layanan">Layanan Surat Desa</a>
-        </li>
-        <li class="nav-item">
+        </li> --}}
+        {{-- <li class="nav-item">
           <a class="nav-link text-white" href="/transparansi">Transparansi</a>
-        </li>
+        </li> --}}
         <li class="nav-item">
           <a class="nav-link text-white" href="/kabar-desa">Kegiatan Desa</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link text-white" href="/produk-desa">Produk Desa</a>
-        </li>
+        </li> --}}
       </ul>
     </div>
   </div>
