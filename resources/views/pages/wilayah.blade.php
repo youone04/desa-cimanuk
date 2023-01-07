@@ -10,8 +10,7 @@
       width="100%"
       height="450"
       frameborder="0" style="border:0"
-      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDf7fC8S7iheou_BbpDccLrJh0bRl0dyzw
-        &q=Cibatu,+Cisaat,+Sukabumi,+West+Java" allowfullscreen>
+      src="https://maps.google.com/maps?q=cimanuk%20pesawaran&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen>
     </iframe>
   </div>
 
