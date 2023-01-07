@@ -10,6 +10,7 @@
   <div class="container">
     <p class="lead">{{ $deskripsi }}</p>
     <p class="lead">Berikut adalah struktur organigram dari {{ $title }} :</p>
+    <hr/>
     @if ($gambar != '')
     <img src="{{ asset($gambar) }}" class="img-fluid" alt="Responsive image" style="display: block;margin-left: auto;margin-right: auto;">        
     @else
