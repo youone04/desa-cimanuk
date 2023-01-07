@@ -30,12 +30,11 @@
 @section('content')
 <div class="container py-5 mt-5">
   <!-- For Demo Purpose-->
-  <header class="text-center mb-5">
-      <h1 class="display-4 font-weight-bold">Produk Desa</h1>
-      <p class="font-italic text-muted mb-0">Ini adalah Produk-produk unggulan Desa Cimanuk</p>
-      
+  <header class="text-center mb-5 header-produk">
+      <h1 class="display-4 font-weight-bold">Produk Desa Cimanuk</h1>
+      <p class="font-italic mb-0">Ini adalah Produk-produk unggulan Desa Cimanuk</p>
   </header>
-
+<hr/>
   
   <!-- First Row [Prosucts]-->
   <div class="row pb-5 mb-4"> 

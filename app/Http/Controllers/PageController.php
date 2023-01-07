@@ -26,7 +26,7 @@ class PageController extends Controller
     public function sejarah() 
     {
         $data = array(
-            'title' => 'Sejarah',
+            'title' => 'Sejarah Desa Cimanuk',
             'jumbotronImage' => 'img/sejarah.jpeg'
         );
         return view('pages.page')->with($data);

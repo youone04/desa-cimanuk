@@ -87,11 +87,23 @@ footer .container {
   background-color: #336B87;
   color: white;
 }
-
+.alamat-img{
+  float: right;
+}
+@media ( max-width : 767px) {
+  .alamat-img{
+    float: none;
+  }
+  .text-alamat{
+    padding: 50px;
+  }
+  
+}
 @media (min-width: 576px) {
   .jumbo .display-4{
     margin-top: -20px;
   }
+ 
 }
 
 @media (min-width: 768px) {
@@ -153,4 +165,5 @@ footer .container {
     float: right;
     margin-top: 10px;
   }
+  
 }

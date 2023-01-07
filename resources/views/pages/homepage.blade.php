@@ -17,13 +17,14 @@
 {{-- style="background-image: url({{ asset('img/back.png') }});" --}}
 <div class="jumbotron jumbotron-fluid" style="background-image: url('https://i.pinimg.com/originals/7d/f1/c0/7df1c007716bed0e9ab086f91dbdd94b.jpg');">
   <div class="container">
-    <h1 class="display-4" data-aos="fade-down">Kenali Desa Cimanuk Lebih Dekat</h1>
+    <h1 class="display-4" data-aos="fade-down">Desa Cimanuk, Waylima</h1>
     <p class="lead" data-aos="fade-down">Desa Cimanuk merupakan desa yang berada di wilayah kecamatan Waylima  dan Kabupaten Pesawaran, Lampung</p>
     <a class="btn btn-xl btn-learn-more text-white"  href="#desa" role="button" data-aos="fade-down">Detail</a>
   </div>
 </div>
 
 <h2 data-aos="fade-down" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:#336B87;" class="text-center pt-5">Selamat Datang Di Website Kami</h2>
+<hr/>
 
 <div class="welcome mb-5">
   <div class="container">
@@ -62,12 +63,20 @@
       </div>
 
       @endforeach
-      
       </div>
     </div>
   </div>
 </div>
 
-
-
+<div class="home-maps" style="transform: translateY(50px);" data-aos="fade-up">
+  <center>
+    <iframe
+    width="70%"
+    height="250"
+    frameborder="0" style="border:solid #aabb2a"
+    src="https://maps.google.com/maps?q=cimanuk%20pesawaran&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen>
+  </iframe>
+  </center>
+</div>
+@include('partials.alamat')
 @endsection
