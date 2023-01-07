@@ -24,30 +24,47 @@
 
   <div class="row mb-3">
     <div class="col">
-      <h2 style="border-bottom: 1px solid #336B87; display: inline;"> <span class="far fa-newspaper" style="color: #336B87;"></span> Kabar Desa</h2>
+      <h2 style="border-bottom: 1px solid #336B87; display: inline;"> <span class="far fa-newspaper" style="color: #336B87;"></span> Kegiatan Desa</h2>
     </div>
   </div>
 
   <div class="row">
     <!-- Sidebar Widgets Column -->
-    <div class="col-lg-8 d-md-block d-lg-none" style="top: 0; margin-top: -22px;">
+    <div class="col-lg-8 d-md-block  d-sm-none d-lg-none " style="top: 0; margin-top: -22px;">
   
       <!-- Search Widget -->
       <div class="card my-4 border-primary">
-        <h5 class="card-header bg-crimson text-white">Search</h5>
-        <div class="card-body">
-          <form class="input-group" action="{{route('search.posts')}}" method="GET">
+        {{-- <h5 class="card-header bg-crimson text-white">Search</h5> --}}
+        {{-- <div class="card-body"> --}}
+          {{-- <form class="input-group" action="{{route('search.posts')}}" method="GET">
             <input name="query" type="text" class="form-control" placeholder="Cari...">
             <span class="input-group-append">
-              <button class="btn bg-crimson text-white" type="submit">Go!</button>
+              <button class="btn bg-crimson text-white" type="submit">Cari!</button>
             </span>
-          </form>
-        </div>
+          </form> --}}
+        {{-- </div> --}}
       </div>
     </div>
   </div>
 
   <div class="row">
+
+  <!-- Sidebar Widgets Column -->
+  <div class="col-lg-4 d-md-none d-lg-block" style="top: 0; margin-top: -22px;">
+
+    <!-- Search Widget -->
+    <div class="card my-4 border-primary">
+      <h5 class="card-header bg-crimson text-white">Temukan Kegiatan</h5>
+      <div class="card-body">
+        <form class="input-group" action="{{route('search.posts')}}" method="GET">
+          <input name="query" type="text" class="form-control" placeholder="Cari...">
+          <span class="input-group-append">
+            <button class="btn bg-crimson text-white" type="submit">Cari!</button>
+          </span>
+        </form>
+      </div>
+    </div>
+  </div>
     
     <div class="col-lg-8">
 
@@ -72,22 +89,7 @@
     @endforeach
   </div>
 
-  <!-- Sidebar Widgets Column -->
-  <div class="col-lg-4 d-md-none d-lg-block" style="top: 0; margin-top: -22px;">
-
-    <!-- Search Widget -->
-    <div class="card my-4 border-primary">
-      <h5 class="card-header bg-crimson text-white">Search</h5>
-      <div class="card-body">
-        <form class="input-group" action="{{route('search.posts')}}" method="GET">
-          <input name="query" type="text" class="form-control" placeholder="Cari...">
-          <span class="input-group-append">
-            <button class="btn bg-crimson text-white" type="submit">Go!</button>
-          </span>
-        </form>
-      </div>
-    </div>
-  </div>
+  {{-- </div> --}}
     
   </div>
 </div>
