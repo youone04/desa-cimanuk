@@ -81,6 +81,13 @@ footer .container {
 -moz-box-shadow: 7px -4px 9px -1px rgba(24,28,27,0.75);
 }
 
+.wilayah{
+  -webkit-box-shadow: 7px -4px 9px -1px rgba(24,28,27,0.75);
+  -moz-box-shadow: 7px -4px 9px -1px rgba(24,28,27,0.75);
+  background-color: #336B87;
+  color: white;
+}
+
 @media (min-width: 576px) {
   .jumbo .display-4{
     margin-top: -20px;

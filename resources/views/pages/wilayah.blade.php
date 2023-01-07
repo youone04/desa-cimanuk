@@ -14,8 +14,8 @@
     </iframe>
   </div>
 
-  <div class="container">
-    <h2 style="margin-top: 40px; margin-bottom: 20px; text-align: center;">Wilayah</h2>
+  <div class="wilayah card container mt-3">
+    <h2 style="margin-top: 40px; margin-bottom: 20px; text-align: center;">Wilayah Desa Cimanuk</h2>
     <p class="lead">Desa Cimanuk Kecamatan Waylima Kabupaten Pesawaran secara geografis terletak di 106.5314 EBT dan terletak di 0654185 LS. Topografi Desa Cibatu termasuk dalam kategori Daerah dataran Sedang dengan suhu 20-30 derajat celcius dengan ketinggian  550  meter  dari permukaan laut (DPL).</p>
     <p class="lead">Adapun batas-batas wilayah yuridis Desa Cimanuk Kecamatan Waylima Kabupaten Pesawaran adalah sebagai berikut: </p>
     <ul class="lead">
