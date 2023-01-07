@@ -11,7 +11,7 @@
   }
 
   .bg-crimson {
-    background-color: crimson
+    background-color: #336B87
   }
 </style>
 @endsection

@@ -9,7 +9,7 @@
       }
 
       .bg-crimson  {
-        background-color: crimson;
+        background-color: #336B87;
       }
     </style>
 @endsection
@@ -24,7 +24,7 @@
 
   <div class="row mb-3">
     <div class="col">
-      <h2 style="border-bottom: 1px solid crimson; display: inline;"> <span class="far fa-newspaper" style="color: crimson;"></span> Kabar Desa</h2>
+      <h2 style="border-bottom: 1px solid #336B87; display: inline;"> <span class="far fa-newspaper" style="color: #336B87;"></span> Kabar Desa</h2>
     </div>
   </div>
 
@@ -33,7 +33,7 @@
     <div class="col-lg-8 d-md-block d-lg-none" style="top: 0; margin-top: -22px;">
   
       <!-- Search Widget -->
-      <div class="card my-4 border-danger">
+      <div class="card my-4 border-primary">
         <h5 class="card-header bg-crimson text-white">Search</h5>
         <div class="card-body">
           <form class="input-group" action="{{route('search.posts')}}" method="GET">
@@ -54,16 +54,16 @@
     @foreach ($posts as $post)
     
     
-      <div class="card mb-3 border-danger">
+      <div class="card mb-3 border-primary">
         <a href="{{ route('posts.post', $post->slug) }}"><img class="card-img" src="{{ asset($post->thumbnail) }}"></a>
         <div class="card-body">    
           <small class="text-muted cat">
-            <span class="fa fa-clock-o" style="color: crimson"></span> {{ $post->created_at->diffForHumans() }}
+            <span class="fa fa-clock-o" style="color: #336B87"></span> {{ $post->created_at->diffForHumans() }}
           </small>      
           <h4 class="card-title">{{ $post->judul }}</h4>
           
           <p class="card-text">{!! Str::limit($post->content , 100, '.') !!}
-            <a style="color: crimson" href="{{ route('posts.post', $post->slug) }}" class="">Baca Selengkapnya...</a>
+            <a style="color: #336B87" href="{{ route('posts.post', $post->slug) }}" class="">Baca Selengkapnya...</a>
           </p>
         </div>
       </div>
@@ -76,7 +76,7 @@
   <div class="col-lg-4 d-md-none d-lg-block" style="top: 0; margin-top: -22px;">
 
     <!-- Search Widget -->
-    <div class="card my-4 border-danger">
+    <div class="card my-4 border-primary">
       <h5 class="card-header bg-crimson text-white">Search</h5>
       <div class="card-body">
         <form class="input-group" action="{{route('search.posts')}}" method="GET">
