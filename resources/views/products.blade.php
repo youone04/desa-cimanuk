@@ -32,7 +32,7 @@
   <!-- For Demo Purpose-->
   <header class="text-center mb-5">
       <h1 class="display-4 font-weight-bold">Produk Desa</h1>
-      <p class="font-italic text-muted mb-0">Ini adalah Produk-produk unggulan Desa Cibatu</p>
+      <p class="font-italic text-muted mb-0">Ini adalah Produk-produk unggulan Desa Cimanuk</p>
       
   </header>
 

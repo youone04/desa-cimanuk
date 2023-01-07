@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('title')
-  Cibatu | {{ $title }}
+  Cimanuk | {{ $title }}
 @endsection
 
 @section('content')

@@ -2,7 +2,7 @@
 
 @section('content')
 <br><br><br><br>
-<div class="col-xl-8 offset-xl-2 py-5">
+<div class="col-xl-8 offset-xl-2 py-5 card">
 
   <h1 align="center"><p>Pelayanan Surat Online</p>
       <a href="/">Desa Cimanuk</a>

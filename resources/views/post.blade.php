@@ -33,7 +33,7 @@
           <hr>
 
           <!-- Date/Time -->
-          <p>Diposting pada {{ $post->created_at->format('d F Y') }} oleh Admin Desa Cibatu</p>
+          <p>Diposting pada {{ $post->created_at->format('d F Y') }} oleh Admin Desa Cimanuk</p>
 
           <hr>
 
