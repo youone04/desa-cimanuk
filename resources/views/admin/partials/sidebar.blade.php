@@ -21,15 +21,15 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Lembaga</a>
             <ul class="sub-menu children dropdown-menu">
                 <li><i class="fa fa-puzzle-piece"></i><a href="{{ url('admin/pd') }}">Aparat Desa</a></li>
-                <li><i class="fa fa-id-badge"></i><a href="{{ url('admin/bpd') }}">BPD</a></li>
-                <li><i class="fa fa-bars"></i><a href="{{ url('admin/lpm') }}">LPM</a></li>
+                {{-- <li><i class="fa fa-id-badge"></i><a href="{{ url('admin/bpd') }}">BPD</a></li> --}}
+                {{-- <li><i class="fa fa-bars"></i><a href="{{ url('admin/lpm') }}">LPM</a></li> --}}
                 <li><i class="fa fa-share-square-o"></i><a href="{{ url('admin/pkk') }}">PKK</a></li>
-                <li><i class="fa fa-id-card-o"></i><a href="{{ url('admin/kt') }}">Karang Taruna</a></li>
+                {{-- <li><i class="fa fa-id-card-o"></i><a href="{{ url('admin/kt') }}">Karang Taruna</a></li> --}}
             </ul>
         </li>
-        <li>
+        {{-- <li>
             <a href="{{ route('transparansi.index') }}"> <i class="menu-icon ti-email"></i>Transparansi </a>
-        </li>
+        </li> --}}
         <li>
           <a href="{{ route('layanan.index') }}"> <i class="menu-icon ti-email"></i>Layanan Surat</a>
       </li>
@@ -43,9 +43,9 @@
         <li>
           <a href="{{ url('admin/produk') }}"> <i class="menu-icon ti-email"></i>Produk</a>
         </li>
-        <li>
+        {{-- <li>
           <a href="{{ url('') }}"> <i class="menu-icon ti-email"></i>Pesanan</a>
-        </li>
+        </li> --}}
 
       </ul>
     </div><!-- /.navbar-collapse -->

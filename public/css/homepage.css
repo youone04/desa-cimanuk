@@ -54,6 +54,8 @@
   box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
   -webkit-box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
   -moz-box-shadow: 7px -4px 7px -2px rgba(24,28,27,0.75);
+  border: solid white;
+
 }
 
 .photo img {

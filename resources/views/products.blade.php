@@ -49,7 +49,7 @@
             <h5><a href="{{ route('products.product', $product->id) }}" class="text-dark">{{ $product->nama_barang }}</a></h5>
             <h5 class="text-dark font-weight-bold">Rp. {{ $product->harga }}</h5>
             <div class="row px-2">
-            <h5><a href="{{ route('products.product', $product->id) }}" class="btn crimson"><i class="fa fa-money-bill-wave"></i> Pesan</a></h5>
+            <h5><a href="{{ route('products.product', $product->id) }}" class="btn btn-success"><i class="fa fa-money-bill-wave"></i> Pesan</a></h5>
             </div>
           </div>
           

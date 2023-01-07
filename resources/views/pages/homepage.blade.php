@@ -56,7 +56,7 @@
           <img src="{{ asset( $post->thumbnail ) }}" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title">{{ Str::limit($post->judul , 50) }}</h5>
-            <p class="card-text"> {!! Str::limit($post->content , 100, '.') !!} <span>baca selengkapnya...</span></p>
+            <p class="card-text"> {!! Str::limit($post->content , 100, '.') !!} <span><a href="kabar-desa/{{  $post->slug }}">baca selengkapnya...</a></span></p>
           </div>
         </div>
       </div>

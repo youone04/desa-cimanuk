@@ -23,7 +23,7 @@
             <a class="dropdown-item" href="/wilayah">Wilayah</a>
             <a class="dropdown-item" href="/sejarah">Sejarah</a>
             <a class="dropdown-item" href="/layanan">Layanan Surat Desa</a>
-            <a class="dropdown-item" href="/transparansi">Transparansi</a>
+            {{-- <a class="dropdown-item" href="/transparansi">Transparansi</a> --}}
             <a class="dropdown-item" href="/produk-desa">Produk Desa</a>
           </div>
         </li>

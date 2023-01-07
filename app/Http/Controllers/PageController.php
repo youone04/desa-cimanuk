@@ -78,7 +78,7 @@ class PageController extends Controller
 
     public function pkk() 
     {
-        $database = DB::table('lembagas')->where('id', 4)->first();
+        $database = DB::table('lembagas')->where('id', 2)->first();
         $data = array(
             'title' => $database->nama,
             'deskripsi' => $database->deskripsi,

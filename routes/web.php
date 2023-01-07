@@ -20,10 +20,10 @@ Route::get('sejarah', 'PageController@sejarah');
 Route::get('wilayah', 'PageController@wilayah');
 
 Route::get('pemerintah-desa', 'PageController@pd');
-Route::get('bpd', 'PageController@bpd');
-Route::get('lpm', 'PageController@lpm');
+// Route::get('bpd', 'PageController@bpd');
+// Route::get('lpm', 'PageController@lpm');
 Route::get('pkk', 'PageController@pkk');
-Route::get('karang-taruna', 'PageController@kt');
+// Route::get('karang-taruna', 'PageController@kt');
 
 // Route::get('transparansi', 'PageController@transparansi');
 Route::get('produk-desa', 'ProductController@display');
@@ -34,7 +34,7 @@ Route::get('kabar-desa', 'PostsController@all');
 Route::get('kabar-desa/{slug}', 'PostsController@show')->name('posts.post');
 Route::post('/comments', 'PostsController@comment');
 
-Route::get('transparansi', 'TransparansiController@show');
+// Route::get('transparansi', 'TransparansiController@show');
 
 Route::get('layanan', 'ServiceController@create');
 Route::get('layanan/store', 'ServiceController@store');
@@ -45,10 +45,10 @@ Route::get('layanan/store', 'ServiceController@store');
 Route::group(['middleware' => 'auth'], function() {
   Route::get('admin', 'AdminController@adminpage');
   Route::get('admin/pd', 'AdminController@pd');
-  Route::get('admin/bpd', 'AdminController@bpd');
-  Route::get('admin/lpm', 'AdminController@lpm');
+  // Route::get('admin/bpd', 'AdminController@bpd');
+  // Route::get('admin/lpm', 'AdminController@lpm');
   Route::get('admin/pkk', 'AdminController@pkk');
-  Route::get('admin/kt', 'AdminController@kt');
+  // Route::get('admin/kt', 'AdminController@kt');
   Route::patch('lembagas/{id}', 'AdminController@editProses');
   Route::resource('admin/posts', 'PostsController');
   Route::get('home', 'HomeController@index')->name('home');
