@@ -10,7 +10,7 @@ class PageController extends Controller
     
     public function home() 
     {
-        $posts = Posts::orderBy('created_at', 'desc')->paginate(4);
+        $posts = Posts::orderBy('created_at', 'desc')->paginate(2);
         return view('pages.homepage', compact('posts'));
     }
 
